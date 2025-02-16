@@ -1,0 +1,7 @@
+var x = 10;
+func miFuncion(a, b) {
+    return a + b;
+}
+x = miFuncion(5, 7);
+//
+var y = 29;
