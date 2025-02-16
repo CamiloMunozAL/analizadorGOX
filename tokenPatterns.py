@@ -51,7 +51,7 @@ TOKEN_PATTERNS = {
 #NAME_PAT reconoce nombres de variables
 NAME_PAT = re.compile(r"[a-zA-Z_]\w*")
 #FLOAT_PAT reconoce numeros flotantes
-FLOAT_PAT = re.compile(r"(\d+\.\d*)|(\d*\.\d+)")
+FLOAT_PAT = re.compile(r"\d*\.\d+|\d+\.\d*|(\d+([eE][-+]?\d+))")
 #INT_PAT reconoce numeros enteros
 INT_PAT = re.compile(r"\d+")
 #CHAR_PAT reconoce caracteres
