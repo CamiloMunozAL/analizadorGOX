@@ -1,6 +1,6 @@
 # Integrantes
 - Camilo Eduardo Muñoz Albornoz
-- 
+- Juan Camilo Mejia Henao
 
 # Analizador Léxico para el Lenguaje GOX
 
@@ -31,8 +31,6 @@ Tuvimos problemas con el patrón de expresión regular para reconocer números e
 Otro problema que encontramos fue que los comentarios de línea (`//`) al final del texto causaban errores en el análisis léxico.
 
 **Solución**: Ajustamos la lógica en la función `tokenize` en el archivo `analizadorLexico.py` para manejar correctamente los comentarios de línea al final del texto.
-
-## Integrantes del Grupo
 
 ## Ejecución del Proyecto
 
