@@ -4,9 +4,6 @@ __pycache__/
 # Ignorar archivos de VSCode
 .vscode/
 
-# Ignorar archivos generados por la extensión
-*.vsix
-
 # Ignorar archivos generados por el sistema operativo
 .DS_Store
 Thumbs.db
