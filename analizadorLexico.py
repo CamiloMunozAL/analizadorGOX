@@ -2,6 +2,10 @@
 Este programa es un analizador léxico que reconoce tokens para el lenguaje de programación inventado GOX. 
 Los tokens son los elementos básicos que componen un lenguaje.
 
+Integrantes:
+- Camilo Eduardo Muñoz Albornoz
+- Juan Camilo Mejia Henao
+
 """
 import tokenModule as tm
 import tokenPatterns as tp
