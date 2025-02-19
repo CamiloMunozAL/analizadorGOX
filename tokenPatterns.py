@@ -24,6 +24,15 @@ TOKEN_PATTERNS = {
         "{": "LEFT_BRACE",
         "}": "RIGHT_BRACE",
         ",": "COMMA",
+        "<": "LESS",
+        ">": "GREATER",
+        "!": "NOT",
+        "&": "AMPERSAND",
+        "|": "PIPE",
+        "%": "MOD",
+        "\"": "QUOTE",
+        "'": "APOSTROPHE",
+        ":": "COLLON"
     },
     "KEYWORDS": {
         "var": "VAR",

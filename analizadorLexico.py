@@ -27,10 +27,14 @@ def tokenize(code):
     if code[index:index+2] == '/*':
       posChar=code.find('*/',index+2)#Buscar la posicion del cierre del comentario
       #Si no se encuentra el cierre del comentario se muestra un error y se termina el programa
+      print("posChar",posChar)
       if posChar==-1:
         print(f'Error: Comentario no cerrado en la linea {lineon}')
         break
+      lineBreaks=code[index:posChar+2].count("\n") #Cuenta los saltos de linea dentro de los comentarios
       index=posChar+2 #Se actualiza la posicion del codigo fuente al final del comentario
+      print("Saltos",lineBreaks)
+      lineon += lineBreaks
       continue
 
     #3. Ignorar comentarios de linea
